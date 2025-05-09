@@ -1,0 +1,38 @@
+/* upload-page.component.scss */
+.upload-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  input[type="file"] {
+    font-size: 1.2em;
+    padding: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+    background-color: #17a2b8;
+    border: none;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  

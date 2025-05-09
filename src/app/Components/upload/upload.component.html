@@ -1,0 +1,16 @@
+<!-- upload-page.component.html -->
+<div class="upload-container">
+    <h2>Upload Skin Image for Detection</h2>
+    <form (submit)="uploadImage()">
+      <div class="form-group">
+        <input type="file" (change)="onFileSelected()" class="form-control" />
+      </div>
+      <button type="submit" class="btn btn-primary">Upload</button>
+    </form>
+  
+    <div *ngIf="result">
+      <h3>Detection Result</h3>
+      <p>{{ result }}</p>
+    </div>
+  </div>
+  
