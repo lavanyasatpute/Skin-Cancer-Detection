@@ -9,7 +9,7 @@ import { AuthServiceService } from '../../Service/auth-service.service';
 })
 export class RegistrationComponent {
  user = {
-    fullName: '',
+    fullname: '',
     education: '',
     address: '',
     email: '',

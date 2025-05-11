@@ -4,9 +4,9 @@
 
         <!-- Full Name -->
         <div class="form-group">
-            <label for="fullName">Full Name</label>
-            <input type="text" id="fullName" name="fullName" class="form-control" required [(ngModel)]="user.fullName" #fullName="ngModel">
-            <div *ngIf="fullName.touched && fullName.invalid" class="text-danger">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" class="form-control" required [(ngModel)]="user.fullname" #fullname="ngModel">
+            <div *ngIf="fullname.touched && fullname.invalid" class="text-danger">
                 Full name is required.
             </div>
         </div>
